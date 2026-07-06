@@ -1,0 +1,11 @@
+[project]
+name = "retail-sql-analytics"
+version = "0.1.0"
+description = "Portfolio SQL analytique : schema en etoile retail, DuckDB, jointures, fenetrage, CTE et analyses metier"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.0.0",
+    "numpy>=1.26",
+    "pandas>=2.2",
+]

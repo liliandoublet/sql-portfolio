@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Donnees generees automatiquement (reproductibles via data/generate_data.py)
+data/*.csv
+
+# Fichiers DuckDB locaux eventuels
+*.duckdb
+*.duckdb.wal
+
+# Configuration locale d'outils (non liee au projet)
+.claude/
