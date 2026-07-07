@@ -1,4 +1,4 @@
-# SQL Toolbox : fondamentaux SQL sur un schéma en étoile retail
+# SQL Toolbox : fondamentaux SQL
 
 Un portfolio SQL couvrant les fondamentaux, du `CREATE TABLE` à la jointure, appliqué à un cas retail réaliste. Chaque requête répond à une vraie question métier et l'ensemble s'exécute en **une seule commande**, sans base de données à installer.
 
