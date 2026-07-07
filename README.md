@@ -19,7 +19,7 @@ uv run run.py
 
 C'est tout. En quelques secondes, cette commande unique :
 
-1. génère un jeu de données synthétique reproductible (seed fixe) dans `data/*.csv` ;
+1. Génère un jeu de données synthétique reproductible (seed fixe) dans `data/*.csv` ;
 2. Crée une base DuckDB en mémoire et y charge ces données à partir du schéma `sql/00_schema.sql` ;
 3. Exécute dans l'ordre les cinq fichiers SQL du dossier `sql/` et affiche, pour chaque requête, la question métier posée, la technique démontrée et un extrait lisible du résultat.
 
